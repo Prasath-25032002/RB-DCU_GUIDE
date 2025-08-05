@@ -1496,8 +1496,8 @@ On Linux, verify with:
 How to Connect the Board with a PC
 ======================================
 
-Serial Console Access via Minicom
-=================================
+Connect to the Board via Serial Console (Minicom)
+=================================================
 
 Install Minicom (if it is not already installed):
 
@@ -1584,8 +1584,8 @@ To safely power off the target board, run the following command in the target te
 
 
 
-Network Access via SSH
-=======================
+Connect to the Board via SSH (Network Access)
+=============================================
 
 You can also connect to the board over the network using SSH. Follow the steps below:
 
