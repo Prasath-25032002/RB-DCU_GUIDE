@@ -142,7 +142,7 @@ ul li {
 .wy-table-responsive table {
   border-collapse: collapse;
   border: 1px solid #ddd;
-  width: 40%;
+  width: 30%;
   background: white;
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -217,3 +217,44 @@ table.docutils th {
   overflow-y: auto;
   z-index: 1000;
 }
+
+.toggle-sidebar-btn {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 2000;
+  width: 32px;
+  height: 32px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-sidebar-btn:hover {
+  background-color: #357ab8;
+  transform: scale(1.05);
+}
+
+.wy-nav-side.collapsed {
+  width: 0 !important;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.wy-nav-content-wrap.collapsed {
+  margin-left: 0 !important;
+  transition: margin-left 0.3s ease;
+}
+
+.wy-nav-content {
+  max-width: 100%;
+  transition: all 0.3s ease;
+}
+
+
