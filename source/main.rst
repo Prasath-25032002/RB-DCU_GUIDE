@@ -153,9 +153,9 @@ voltage levels.
 +---------------+--------------------+
 | Pin           | Signal             |
 +===============+====================+
-| 1             | X_UART1_TX_DBG     |
+| 1             | X_UART1_TX_DCE     |
 +---------------+--------------------+
-| 2             | X_UART1_RX_DBG     |       
+| 2             | X_UART1_RX_DCE     |       
 +---------------+--------------------+
 | 3             | GND                |
 +---------------+--------------------+
@@ -797,11 +797,11 @@ technologies.RF connector1 is using **UART3 interface**.
 
    1, VCC_3V, 2, GND
    3, VCC_3V, 4, GND
-   5, X_gpio1_IO10_RF2_RST, 6, GND
+   5, X_GPIO1_IO10_RF2_RST, 6, GND
    7, X_UART3_RX, 8, GND
    9, X_UART3_TX, 10, GND
    11, X_GPIO2_IO15_RF2_1, 12, GND
-   13, X_GPIO_RF2_2, 14, GND
+   13, X_GPIO1_IO14_RF2_2, 14, GND
 
 .. raw:: html
 
@@ -837,9 +837,9 @@ transmit and receive data pins are:
 +-------+------------------------+------------------------+
 | Pin   | Signal                 | Description            |
 +=======+========================+========================+
-|  1    | X_LCD_D16_uart7_TX     | UART7 Transmit Line    |
+|  1    | X_LCD_D16_UART7_TX     | UART7 Transmit Line    |
 +-------+------------------------+------------------------+
-|  2    | X_LCD_D17_uart7_RX     | UART7 Receive Line     |
+|  2    | X_LCD_D17_UART7_RX     | UART7 Receive Line     |
 +-------+------------------------+------------------------+
 
 .. raw:: html
