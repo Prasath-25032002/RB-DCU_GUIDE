@@ -100,7 +100,7 @@ DC 5V.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 4: Pin Assignment of (P2)
+     Table 4: Pin Assignment of P2
    </div>
 
 .. raw:: html
@@ -163,7 +163,7 @@ voltage levels.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 6: Pin Assignment of (J1)
+     Table 6: Pin Assignment of J1
    </div>
 
 .. raw:: html
@@ -204,7 +204,7 @@ selected by configuring jumper J9.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 7: Pin Assignment of (J9)
+     Table 7: Pin Assignment of J9
    </div>
 
 .. raw:: html
@@ -234,8 +234,23 @@ the module to also reset the peripherals on the carrier board.
 
    **Figure 8: System Reset Button (SW2)**
 
+.. raw:: html
+
+   <br>
+
+.. csv-table::
+   :header: "Pin", "Description"
+   :widths: 20, 80
+
+   "X_nRESET_IN", "Active-low input reset signal to the processor module, triggered by SW2."
+   "X_nRESET_OUT (X_RESET#)", "Active-low output reset signal from the module to reset peripherals on the carrier board."
 
 
+.. raw:: html
+
+   <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
+     Table 8: Pin Assignment of SW2
+   </div>
 
 Li-ion Battery Charger (P7)
 ============================
@@ -281,7 +296,7 @@ External Li-ion battery (3.7V) is used to boot the board.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 9: Pin Assignment of (P7)
+     Table 9: Pin Assignment of P7
    </div>
 
 .. raw:: html
@@ -325,7 +340,7 @@ date. Internal RTC is not mounted in board.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 10.1: Pin Assignment of (P11)
+     Table 10.1: Pin Assignment of P11
    </div>
 
 .. raw:: html
@@ -346,7 +361,7 @@ date. Internal RTC is not mounted in board.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 10.2: Pin Assignment of (P3)
+     Table 10.2: Pin Assignment of P3
    </div>
 
 
@@ -354,7 +369,7 @@ User LED (D4)
 =================
 
 The RB-DCU i.MX 6ULL-1P1 is populated with one user LEDs to indicate the
-status of the userleds, as well as the power supply voltage. View of the
+status of the user led, as well as the power supply voltage. View of the
 RB-DCU i.MX 6ULL-1P1 (top) shows the location of the LED.
 
 .. figure:: ../images/image/d4.jpeg
@@ -377,7 +392,7 @@ RB-DCU i.MX 6ULL-1P1 (top) shows the location of the LED.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 11: Pin Assignment of (D4)
+     Table 11: Pin Assignment of D4
    </div>
 
 
@@ -396,6 +411,17 @@ INPUT operation of the board.**X_GPIO2_IO8_INT_SW** is used for switch.
    **Figure 12: Switch1 (SW1)**
 
 
+.. csv-table:: 
+   :header: "Pin", "Description"
+   :widths: 20, 80
+
+   "X_GPIO2_IO8_INT_SW", "GPIO signal connected to SW1. Used to detect switch press in the software layer."
+
+.. raw:: html
+
+   <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
+     Table 12: Pin Assignment of SW1
+   </div>
 
 
 Mini PCIe (P8)
@@ -462,7 +488,7 @@ available at expansion connector J4.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 13: Pin Assignment of (P8)
+     Table 13: Pin Assignment of P8
    </div>
 
    
@@ -506,7 +532,7 @@ card.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 14: Pin Assignment of (J4)
+     Table 14: Pin Assignment of J4
    </div>
 
 .. raw:: html
@@ -564,7 +590,7 @@ embedded systems that rely on cellular connectivity.eSIM is not mounted.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 15: Pin Assignment of (U16)
+     Table 15: Pin Assignment of U16
    </div>
 
 .. raw:: html
@@ -622,7 +648,7 @@ operation as a station and a micro access point for up to 8 clients.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 16: Pin Assignment of (U18)
+     Table 16: Pin Assignment of U18
    </div>
 
    
@@ -683,12 +709,12 @@ pin mating Male connector(P4).
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 18: Pin Assignment of (P4)
+     Table 18: Pin Assignment of P4
    </div>
 
 
    
-RF-Connector-1 (P9)
+RF-Connector 1 (P9)
 =======================
 
 RF (Radio Frequency) connectors are used for interfacing with wireless
@@ -731,7 +757,7 @@ technologies.RF connector1 is using **UART4 interface**.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 19: Pin Assignment of (P9)
+     Table 19: Pin Assignment of P9
    </div>
 
 .. raw:: html
@@ -745,7 +771,7 @@ technologies.RF connector1 is using **UART4 interface**.
    before connection.
 
    
-RF-Connector-2 (P12)
+RF-Connector 2 (P12)
 ========================
 
 RF (Radio Frequency) connectors are used for interfacing with wireless
@@ -780,7 +806,7 @@ technologies.RF connector1 is using **UART3 interface**.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 20: Pin Assignment of (P12)
+     Table 20: Pin Assignment of P12
    </div>
 
 
@@ -819,7 +845,7 @@ transmit and receive data pins are:
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 21: Pin Assignment of (D30 & D31)
+     Table 21: Pin Assignment of D30 & D31
    </div>
 
 .. raw:: html
@@ -878,7 +904,7 @@ devices.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 22: Pin Assignment of (P10)
+     Table 22: Pin Assignment of P10
    </div>
 
 .. raw:: html
@@ -915,6 +941,23 @@ tampering attempts and **X_GPIO5_1, X_GPIO5_2** pins are used.
 .. note::
 
    Tamper detection is especially useful in security-critical applications such as financial terminals, industrial control systems, and IoT gateways.
+
+.. raw:: html
+
+   <br>
+
+.. csv-table::
+   :header: "Pin", "Description"
+   :widths: 20, 80
+
+   "X_GPIO5_1", "GPIO used for tamper detection, triggered by TP48."
+   "X_GPIO5_2", "GPIO used for tamper detection, triggered by TP49."
+
+.. raw:: html
+
+   <div style="margin-top: -15px; text-align: center; font-style: italic; font-weight: bold;">
+     Table 23: Pin Assignment of TP48 & TP49
+   </div>
 
 .. raw:: html
 
@@ -972,13 +1015,13 @@ Isolated Voltage connected upto 24V from external; MCU reads High (3.3V).
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 24: Pin Assignment of (P5)
+     Table 24: Pin Assignment of P5
    </div>
 
 Micro SD Card (J2)
 ======================
 
-The RB-DCU i.MX 6ULL-1P1 provides a standard microSDHC card slot at **J2** for
+The RB-DCU i.MX 6ULL-1P1 provides a standard micro SDHC card slot at **J2** for
 connection to MMC/SD interface cards. It allows easy and convenient
 connection to peripheral devices such as SD and MMC cards. Power to the SD
 interface is supplied by inserting the appropriate card into the MMC/SD
@@ -1029,7 +1072,7 @@ configuration (Boot Mode Jumper J9).
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 25: Pin Assignment of (J2)
+     Table 25: Pin Assignment of J2
    </div>
 
 .. raw:: html
@@ -1089,7 +1132,7 @@ uses **UART5 interface**.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 26: Pin Assignment of (U14)
+     Table 26: Pin Assignment of U14
    </div>
 
 .. raw:: html
@@ -1118,7 +1161,7 @@ interface**.
    :width: 300px
    :align: center
 
-   **Figure 27: Accelerometer, Gyroscope (Embedded Temperature sensor), 3 Axis (U23)**
+   **Figure 27: Accelerometer, Gyroscope - 3 Axis (Embedded Temperature sensor) (U23)**
 
 .. raw:: html
 
@@ -1153,18 +1196,13 @@ interface**.
 .. raw:: html
 
    <div style="text-align: center; margin-top: -20px; font-style: italic; font-weight: bold;">
-     Table 27: Pin Assignment of (U23)
+     Table 27: Pin Assignment of U23
    </div>
 
 .. raw:: html
 
    <br>
 
-.. tip::
-
-   The combined use of accelerometer and gyroscope enables precise motion
-   tracking, ideal for gesture detection, tilt sensing, and inertial navigation in
-   embedded applications.
 
 .. raw:: html
 
@@ -1172,70 +1210,76 @@ interface**.
 
 
 
-============================
-SDCARD Partition Setup Guide
-============================
+=====================
+SD Card Setup Guide
+=====================
 
-**Step 1:** Insert the SD card into your PC. Then open the application named **GParted Partition Editor**.It will prompt you for a password. After entering the password, the GParted application will open.Once entered your password after you can see below example figure.
+SD Card Partition Setup
+=======================
 
-        
+**Step 1:** Insert the SD card into your PC. Then open the application named **GParted Partition Editor**. It will prompt you for a password. After entering the password, GParted will open.
+
 .. figure:: ../images/gpart/opened_gparted.jpeg
-   :alt: opened gparted image
+   :alt: GParted main window after launch
    :width: 600px
    :align: center
+
+   **Figure 28: GParted application opened successfully**
 
 .. raw:: html
 
    <br>
-
-
 
 .. warning::
-   Be carefully handle the opened gparted section because your pc SSD or HDD partition is here and also inserted sd card partition  is here!
-   
-**Step 2:** Select your sdcard device at the right top corner of the window shown in below figure. 
-        
+   Be careful when using GParted — your PC's SSD/HDD and the SD card partitions are all shown. Mistakes can lead to data loss!
+
+---
+
+**Step 2:** Select your SD card device in the dropdown at the top-right corner.
+
 .. figure:: ../images/gpart/image.jpeg
-   :alt: select sd card gparted image
+   :alt: Selecting SD card device in GParted
    :width: 600px
    :align: center
-   
+
+   **Figure 29: Selecting the SD card device from GParted's device list**
+
 .. raw:: html
 
    <br>
 
-**Step 3:** Then unmount the sdcard all partitions using right click on the partition. And Select the sdcard partition then delete sdcard all the partition.Finally You can look like below figure.
 
-
-
+**Step 3:** Unmount all partitions on the SD card using right-click, then delete all partitions.
 
 .. figure:: ../images/gpart/unmount.jpeg
-   :alt: opened gparted image
+   :alt: Right-click unmount partitions in GParted
    :width: 600px
    :align: center
 
+   **Figure 30: Unmounting all partitions on the SD card**
 
 .. raw:: html
 
    <br>
 
-
-
-   
 .. figure:: ../images/gpart/dd.png
-   :alt: delete partition image
+   :alt: Deleting partitions using GParted
    :width: 600px
    :align: center
-   
+
+   **Figure 31: Deleting all partitions from the SD card**
+
 .. raw:: html
 
    <br>
-
 
 .. figure:: ../images/gpart/unmounted.jpeg
-   :alt: unmounted image
-   :width: 600px 
-   :align: center 
+   :alt: Final unallocated state of SD card
+   :width: 600px
+   :align: center
+
+   **Figure 32: Final view showing SD card with all partitions deleted**
+
 
 
 .. raw:: html
@@ -1243,66 +1287,86 @@ SDCARD Partition Setup Guide
    <br>
 
    
-**Step 4:** Right click on the partition and select the “new” option , then one window “Create new partition” will open like below figure.  
+**Step 4:** Right-click on the unallocated partition and select the **New** option. A window titled *Create New Partition* will appear.
 
 .. figure:: ../images/gpart/new.jpeg
-   :alt: new partion
+   :alt: Create new partition window in GParted
    :width: 600px
    :align: center
+
+   **Figure 33:Creating a new partition in GParted**
 
 .. raw:: html
 
    <br>
 
-**Step 5:** The option for **BOOT** partition section “free space proceeding” should be “8” and at “New size” give the “2048” and at“File system” select the “fat32” and at “Label” enter “boot” then click on “add” option.
+**Step 5:** For the **boot** partition:
+- Set “Free space preceding” to **8**
+- Set “New size” to **2048**
+- Select **fat32** as the file system
+- Set label as **boot**
+- Click **Add**
 
 .. figure:: ../images/gpart/boot.jpeg
-   :alt: boot selection partion
+   :alt: Configuring boot partition parameters in GParted
    :width: 600px
    :align: center
+
+   **Figure 34:Configuring parameters for the boot partition**
 
 .. raw:: html
 
    <br>
 
 
-**Step 6:** Then again partition for **rootfs** right click on the lower partition “unallocated” and click on the “new” option.Then one window will open and at “New size” enter “1024” or remaining sdcard space then at “File system” select the “ext3” and at “Label” enter the “rootfs” and then click on “add”. 
+**Step 6:** To create the **rootfs** partition:
+- Right-click the remaining **unallocated** space
+- Choose **New**
+- Set “New size” to **1024** or use the remaining space
+- Select **ext3** as the file system
+- Label it as **rootfs**
+- Click **Add**
 
 .. figure:: ../images/gpart/rootfs.jpeg
-   :alt: rootfs selection partition
+   :alt: Setting up rootfs partition in GParted
    :width: 600px
    :align: center
-   
+
+   **Figure 35:Setting up the rootfs partition**
+
 .. raw:: html
 
    <br>
 
 
-**Step 7:** Then click on the “right mark” on the menu. Then click on apply, It will take few seconds. Then close the “Applying pending operations” window.  
+**Step 7:** Click the **✔️ Apply** button on the toolbar. It will apply all pending operations and may take a few seconds. Close the window after completion.
 
 .. figure:: ../images/gpart/click.jpeg
-   :alt: tick mark
+   :alt: Apply pending operations in GParted
    :width: 600px 
    :align: center
-   
+
+   **Figure 36:Applying all pending partition changes**
+
 .. raw:: html
 
    <br>
 
-
-**Step 8:** Then right click on the “boot” partition and select the “Manage flags” then select the “boot” in options. Then click on “close” option. It will take few seconds to complete. 
+**Step 8:** Right-click the **boot** partition and choose **Manage Flags**. In the popup, enable the **boot** flag and then close the dialog.
 
 .. figure:: ../images/gpart/flag.jpeg
-   :alt: choose boot flag image
+   :alt: Setting the boot flag on boot partition in GParted
    :width: 600px  
    :align: center
-   
+
+   **Figure 37: Enabling the boot flag for the boot partition**
+
 .. raw:: html
 
    <br>
 
-   
-**Step 9:** Finally, Your sdcard ready for copying boot and rootfs of RB-DCU i.MX 6ULL.  
+
+**Step 9:** Now your SD card is ready to copy the **boot** and **rootfs** files for the **RB-DCU i.MX 6ULL** board.
 
 .. raw:: html
 
@@ -1339,7 +1403,12 @@ Now insert the sdcard into the board and make the jumper positions for booting f
 
 .. raw:: html
 
+   <br>
+   
+.. raw:: html
+
    <hr style="border: 0; border-top: 3px solid #ccc; margin: 20px 0;">
+
 
 
 =======================
@@ -1347,7 +1416,7 @@ How to Handle the Board
 =======================
 
 ESD Safety
-----------
+------------
 
 **Before touching the board:**
 
@@ -1423,30 +1492,30 @@ On Linux, verify with:
 
 
 
-=============================
-How to Board Connect with PC
-=============================
-   
-Open Minicom to Connect PC
-===========================
+======================================
+How to Connect the Board with a PC
+======================================
 
-Install Minicom (if not already installed):
+Serial Console Access via Minicom
+=================================
+
+Install Minicom (if it is not already installed):
 
 .. code-block:: console
 
    $ sudo apt update && sudo apt install minicom
 
-Identify the serial port after plugging in the USB‑to‑TTL cable:
+Identify the serial port after connecting the USB-to-TTL cable:
 
 .. code-block:: console
 
    $ dmesg | grep -i tty
 
-Look for a new device such as /dev/ttyUSB0 or /dev/ttyACM0.
+Look for a newly listed device such as `/dev/ttyUSB0` or `/dev/ttyACM0`.
 
 **Start Minicom with the correct port and baud rate (115200):**
 
-**1.** In your host terminal,
+**1.** In your host machine terminal:
 
 .. code-block:: console
 
@@ -1456,50 +1525,54 @@ Look for a new device such as /dev/ttyUSB0 or /dev/ttyACM0.
 
    <br>
 
+**2.** Choose **"Serial port setup"** and configure the following:
 
-**2.** Choose "Serial port setup" and set the following:
- 
 .. figure:: ../images/minicom/open_minicom.jpeg
-   :alt: Authentication image
+   :alt: Minicom startup interface for configuration
    :width: 300px
    :align: center
-   
+
+   **Figure 38: Minicom startup screen where the serial configuration menu is accessed**
+
 .. raw:: html
 
    <br>
 
+**3.** Set the serial device to your USB-to-TTL port (e.g., `/dev/ttyUSB0`).
 
-**3.** Change the serial device to your USB‑to‑TTL port (e.g., /dev/ttyUSB0).
-**4.** Set the baud rate to 115200.
-**5.** Disable hardware flow control (set to "No").
+**4.** Set the baud rate to **115200**.
+
+**5.** Disable **hardware flow control** (set to “No”).
 
 .. figure:: ../images/minicom/change.jpeg
-   :alt: Authentication image
+   :alt: Configuring serial port and baud rate in Minicom
    :width: 600px
    :align: center
 
+   **Figure 39: Minicom serial settings menu where device, baud rate, and flow control options are configured**
+
 .. raw:: html
 
    <br>
 
-
-**6.** Save setup as the default configuration.
+**6.** Save the setup as the **default configuration**.
 
 .. figure:: ../images/minicom/save.jpeg
-   :alt: Authentication image
+   :alt: Saving default Minicom configuration
    :width: 300px
    :align: center
 
+   **Figure 40: Saving the modified serial settings as the default configuration in Minicom**
+
 .. raw:: html
 
    <br>
 
+**7.** Exit the setup menu to start the Minicom serial console.
 
-**7.** Exit the setup menu and start Minicom.
+**Shutting Down the Board:**
 
-
-**Shutdown the Board:**
-In your targete terminal, run:
+To safely power off the target board, run the following command in the target terminal:
 
 .. code-block:: console
 
@@ -1511,33 +1584,26 @@ In your targete terminal, run:
 
 
 
+Network Access via SSH
+=======================
 
-
-SSH Setup to Connect PC 
-========================
-
-
-Now, we can connecting to the board via ssh. Follow below steps:
+You can also connect to the board over the network using SSH. Follow the steps below:
 
 .. note::
 
-   Before using SSH between your PC and the embedded board, 
-   **both devices must be connected to the same network** — either via the same Wi-Fi router, LAN switch, or direct Ethernet with static IPs.
+   Before using SSH, ensure **both your PC and the embedded board are on the same network**—whether via the same Wi-Fi router, LAN switch, or direct Ethernet connection with static IPs.
 
-   SSH relies on IP connectivity. If the devices are not on the same subnet or routable, 
-   **SSH will not work**. Always confirm they are reachable (e.g., by using `ping` or checking IP addresses) before attempting to connect.
+   SSH requires proper IP connectivity. If the devices are not on the same subnet or not routable, **SSH will fail**. Always verify connectivity using `ping` or by checking IP addresses.
 
+**Step 1: Check the IP Address of the Host PC**
 
-
-**Step 1: Check the IP Address of the Host Machine (PC)**
-
-Use the following command in the terminal to check if your PC has an IP address assigned:
+Use the following command to check your PC’s IP address:
 
 .. code-block:: console
 
    $ ip a
 
-If your PC does not have an IP address assigned, manually add one using:
+If no IP is assigned, configure a static IP using:
 
 .. code-block:: console
 
@@ -1550,24 +1616,26 @@ If your PC does not have an IP address assigned, manually add one using:
    $ sudo ip addr add 192.168.2.1/24 dev enp0s31f6
 
 .. figure:: ../images/ssh/add_ip.jpeg
-   :alt: Manually assign IP address
+   :alt: Assigning static IP to host interface
    :width: 600px
    :align: center
+
+   **Figure 41: Manually assigning a static IP address to the host machine's Ethernet interface**
 
 .. raw:: html
 
    <br>
 
 
-**Step 2: Configure the IP Address of the Target Board (Rugged Board)**
+**Step 2: Configure the IP Address on the Target Board**
 
-On your target board, use the following command to check the current IP address:
+On the target board, verify its IP address:
 
 .. code-block:: console
 
    $ ip a
 
-If no IP is assigned, manually configure it using:
+If none is assigned, manually configure one:
 
 .. code-block:: console
 
@@ -1576,11 +1644,11 @@ If no IP is assigned, manually configure it using:
 
 .. note::
 
-   Make a note of both the IP address and the board name for future use.
+   Make a note of both the assigned IP address and the hostname of the target board for later use.
 
 **Step 3: Install and Enable SSH on the Host PC**
 
-To enable SSH communication, install and start the SSH service:
+Ensure SSH is installed and running:
 
 .. code-block:: console
 
@@ -1590,8 +1658,7 @@ To enable SSH communication, install and start the SSH service:
 
 **Step 4: Connect to the Target Board via SSH**
 
-After completing all the above steps, use the following command to connect to your target board:
-
+Once everything is set, connect to the target board using:
 
 .. code-block:: console
 
@@ -1604,14 +1671,15 @@ After completing all the above steps, use the following command to connect to yo
    $ sudo ssh root@192.168.11.110
 
 .. figure:: ../images/ssh/connect_ip.jpeg
-   :alt: Connect to board via SSH
+   :alt: SSH connection to the target board
    :width: 600px
    :align: center
+
+   **Figure 42: Successful SSH session established from the host to the embedded target board**
 
 .. raw:: html
 
    <br>
-
 
 .. raw:: html
 
