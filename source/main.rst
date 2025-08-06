@@ -1181,11 +1181,9 @@ interface**.
    resistors on SDA and SCL lines if not already present on the board.
 
 
-.. tip::
+.. raw:: html
 
-   The combined use of accelerometer and gyroscope enables precise motion
-   tracking, ideal for gesture detection, tilt sensing, and inertial navigation in
-   embedded applications.
+   <br>
 
 
 .. csv-table:: 
@@ -1211,6 +1209,15 @@ interface**.
 
    <br>
 
+.. tip::
+
+   The combined use of accelerometer and gyroscope enables precise motion
+   tracking, ideal for gesture detection, tilt sensing, and inertial navigation in
+   embedded applications.
+
+.. raw:: html
+
+   <br>
 
 .. raw:: html
 
