@@ -1171,9 +1171,7 @@ interface**.
 
    **Figure 27: Accelerometer, Gyroscope - 3 Axis (Embedded Temperature sensor) (U23)**
 
-.. raw:: html
 
-   <br>
 
 .. note::
 
