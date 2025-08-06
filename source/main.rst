@@ -723,8 +723,6 @@ pin mating Male connector(P4).
    - **RS232 communication uses UART2**
    - **RS485 communication uses UART6**
 
-   Ensure the correct device nodes (e.g., `/dev/ttymxc1` for UART2 and `/dev/ttymxc5` for UART6) are used in your applications or debug tools.
-
 
    
 RF-Connector 1 (P9)
