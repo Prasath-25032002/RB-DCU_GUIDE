@@ -712,6 +712,10 @@ pin mating Male connector(P4).
      Table 18: Pin Assignment of P4
    </div>
 
+.. raw:: html
+
+   <br>
+
 .. note::
 
    On the RB-DCU i.MX 6ULL-1P1 board:
