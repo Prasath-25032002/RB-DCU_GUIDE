@@ -1215,9 +1215,7 @@ interface**.
    tracking, ideal for gesture detection, tilt sensing, and inertial navigation in
    embedded applications.
 
-.. raw:: html
 
-   <br>
 
 .. raw:: html
 
