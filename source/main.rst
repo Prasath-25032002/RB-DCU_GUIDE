@@ -855,9 +855,6 @@ transmit and receive data pins are:
 
    Optical UART offers galvanic isolation, making it ideal for use in electrically noisy or high-voltage environments.
 
-.. raw:: html
-
-   <br>
 
 SPI-LCD Header (P10)
 ========================
