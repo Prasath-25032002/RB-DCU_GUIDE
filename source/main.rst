@@ -712,6 +712,15 @@ pin mating Male connector(P4).
      Table 18: Pin Assignment of P4
    </div>
 
+.. note::
+
+   On the RB-DCU i.MX 6ULL-1P1 board:
+
+   - **RS232 communication uses UART2**
+   - **RS485 communication uses UART6**
+
+   Ensure the correct device nodes (e.g., `/dev/ttymxc1` for UART2 and `/dev/ttymxc5` for UART6) are used in your applications or debug tools.
+
 
    
 RF-Connector 1 (P9)
