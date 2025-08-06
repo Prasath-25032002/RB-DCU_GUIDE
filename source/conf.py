@@ -34,3 +34,6 @@ rst_prolog = """
 # Optional: for external image folders
 # html_extra_path = ['../images']
 
+html_show_sourcelink = False
+
+
