@@ -1,4 +1,4 @@
-project = 'RB-DCU i.MX 6UL'
+project = 'RB-DCU i.MX 6ULL'
 copyright = '2025, PHYTEC'
 author = 'PHYTEC'
 release = '0.1'
