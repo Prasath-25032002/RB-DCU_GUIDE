@@ -18,22 +18,17 @@ html_css_files = ['custom.css']
 html_js_files = [
     'sidebar-toggle.js',
 ]
-# Optional: for better navigation
+
 html_theme_options = {
     'collapse_navigation': True,
     'navigation_depth': 4,
     'style_external_links': True,
 }
 
-# Optional: better handling of raw HTML (like Flask-injected blocks)
 rst_prolog = """
 .. role:: raw-html(raw)
    :format: html
 """
 
-# Optional: for external image folders
-# html_extra_path = ['../images']
-
 html_show_sourcelink = False
-
 
