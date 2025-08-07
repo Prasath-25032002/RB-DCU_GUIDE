@@ -1338,7 +1338,7 @@ SD Card Partition Setup
 - Label it as **rootfs**
 - Click **Add**
 
-.. figure:: ../images/gpart/rootfs.jpeg
+.. figure:: ../images/gpart/root.jpeg
    :alt: Setting up rootfs partition in GParted
    :width: 600px
    :align: center
