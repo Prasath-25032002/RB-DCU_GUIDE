@@ -1352,7 +1352,7 @@ SD Card Partition Setup
 
 **Step 7:** Click the **✔️ Apply** button on the toolbar. It will apply all pending operations and may take a few seconds. Close the window after completion.
 
-.. figure:: ../images/gpart/click.jpeg
+.. figure:: ../images/gpart/clicks.jpeg
    :alt: Apply pending operations in GParted
    :width: 600px 
    :align: center
