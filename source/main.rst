@@ -759,10 +759,10 @@ technologies.RF connector1 is using **UART4 interface**.
 
    1, VCC_3V3, 2, GND
    3, VCC_3V3, 4, GND
-   5, X_GPIO2_IO9_RF1_RST, 6, GND
+   5, X_UART4_TX, 6, GND
    7, X_UART4_RX, 8, GND
-   9, X_UART4_TX, 10, GND
-   11, X_GPIO5_9_RF1_1, 12, GND
+   9, X_GPIO2_IO9_RF1_RST , 10, GND
+   11, X_GPIO5_IO9_RF1_1, 12, GND
    13, X_GPIO2_IO14_RF1_2, 14, GND
 
 .. raw:: html
@@ -808,9 +808,9 @@ technologies.RF connector1 is using **UART3 interface**.
 
    1, VCC_3V, 2, GND
    3, VCC_3V, 4, GND
-   5, X_GPIO1_IO10_RF2_RST, 6, GND
+   5, X_UART3_TX, 6, GND
    7, X_UART3_RX, 8, GND
-   9, X_UART3_TX, 10, GND
+   9, X_GPIO1_IO10_RF2_RST , 10, GND
    11, X_GPIO2_IO15_RF2_1, 12, GND
    13, X_GPIO1_IO14_RF2_2, 14, GND
 
