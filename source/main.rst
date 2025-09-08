@@ -901,7 +901,7 @@ devices.
    :header: "Pin", "Signal", "Pin", "Signal"
    :widths: 5, 20, 5, 20
 
-   1, X_ECSPI1_SS0,     6, GND
+   1, X_ECSPI1_SS0,     6, X_GPIO_DC
    2, VCC5V_IN_SW,      7, X_ECSPI1_SCLK
    3, X_RESET#,         8, GND
    4, VCC5V_IN_SW,      9, X_ECSPI1_MISO
