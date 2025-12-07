@@ -759,10 +759,10 @@ technologies.RF connector1 is using **UART4 interface**.
 
    1, VCC_3V3, 2, GND
    3, VCC_3V3, 4, GND
-   5, X_GPIO2_IO9_RF1_RST, 6, GND
+   5, X_UART4_TX, 6, GND
    7, X_UART4_RX, 8, GND
-   9, X_UART4_TX, 10, GND
-   11, X_GPIO5_9_RF1_1, 12, GND
+   9, X_GPIO2_IO9_RF1_RST , 10, GND
+   11, X_GPIO5_IO9_RF1_1, 12, GND
    13, X_GPIO2_IO14_RF1_2, 14, GND
 
 .. raw:: html
@@ -808,9 +808,9 @@ technologies.RF connector1 is using **UART3 interface**.
 
    1, VCC_3V, 2, GND
    3, VCC_3V, 4, GND
-   5, X_GPIO1_IO10_RF2_RST, 6, GND
+   5, X_UART3_TX, 6, GND
    7, X_UART3_RX, 8, GND
-   9, X_UART3_TX, 10, GND
+   9, X_GPIO1_IO10_RF2_RST , 10, GND
    11, X_GPIO2_IO15_RF2_1, 12, GND
    13, X_GPIO1_IO14_RF2_2, 14, GND
 
@@ -901,7 +901,7 @@ devices.
    :header: "Pin", "Signal", "Pin", "Signal"
    :widths: 5, 20, 5, 20
 
-   1, X_ECSPI1_SS0,     6, GND
+   1, X_ECSPI1_SS0,     6, X_GPIO_DC
    2, VCC5V_IN_SW,      7, X_ECSPI1_SCLK
    3, X_RESET#,         8, GND
    4, VCC5V_IN_SW,      9, X_ECSPI1_MISO
@@ -1352,7 +1352,7 @@ SD Card Partition Setup
 
 **Step 7:** Click the **✔️ Apply** button on the toolbar. It will apply all pending operations and may take a few seconds. Close the window after completion.
 
-.. figure:: ../images/gpart/click.jpeg
+.. figure:: ../images/gpart/clicks.jpeg
    :alt: Apply pending operations in GParted
    :width: 600px 
    :align: center
