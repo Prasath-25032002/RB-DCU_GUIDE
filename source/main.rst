@@ -54,7 +54,7 @@ RB-DCU i.MX 6ULL Board Block Diagram
 .. raw:: html
 
    <div style="text-align: center; margin-bottom: 5px; margin-left: 90px; margin-top: 40px;">
-     <img src="_static/block_new.jpeg" alt="RB-DCU i.MX 6ULL Block Diagram" style="width: 900px;" />
+     <img src="_static/block_new_v2.jpeg" alt="RB-DCU i.MX 6ULL Block Diagram" style="width: 900px;" />
    </div>
 
 .. raw:: html
