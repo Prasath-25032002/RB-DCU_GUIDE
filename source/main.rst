@@ -10,17 +10,18 @@ RB-DCU i.MX 6ULL Board Top View
 .. raw:: latex
 
    \vspace{7em}
-   
 
-.. figure:: ../images/image/top.jpeg
-   :alt: RB-DCU i.MX 6ULLL Top View
-   :width: 800px
-   :align: center
-   
+
 .. raw:: html
 
-   <div style="text-align:center; margin-top:10px; font-style: italic; font-weight: bold;">
-     Figure 1
+   <div style="text-align: center; margin-bottom: 5px; margin-left: 90px; margin-top: 40px;">
+     <img src="_static/dcu_block.jpeg" alt="RB-DCU i.MX 6ULL Block Diagram" style="width: 900px;" />
+   </div>
+
+.. raw:: html
+
+   <div style="margin-top: 10px; text-align: center; font-style: italic; font-weight: bold;">
+     Figure 3
    </div>
 
    
