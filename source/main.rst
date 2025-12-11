@@ -40,6 +40,47 @@ RB-DCU i.MX 6ULL Board Bottom View
    **Figure 2**
 
 
+RB-DCU i.MX 6ULL Board Hardware Details
+=======================================
+
+.. csv-table::
+   :header: "Req", "Hardware", "Part No", "Interface", "Connector", "Remarks"
+   :widths: 6, 20, 18, 18, 10, 40
+   :align: center
+
+   "HWR1", "Boot Mode", "", "Mode-0 & Mode-1", "P1", "(2+3) Internal Boot, (1+2) Serial Boot"
+   "HWR2", "Power Session", "", "Circuit --DC 5V", "P2", ""
+   "HWR3", "External RTC", "RV-4162-C7", "I2C2", "P3", "(2+3) External RTC"
+   "HWR4", "Internal RTC", "", "SOM RTC", "P3", "(1+2) Internal RTC"
+   "HWR5", "User LED", "RGB LED", "GPIO", "D4, D7", "GPIO02_11(), GPIO02_12()"
+   "HWR6", "User Switch", "", "GPIO", "SW1", "GPIO02_08()"
+   "HWR7", "Reset Switch", "", "GPIO", "SW2", "SOM Reset available; Additional GPIO01_13() (DNM)"
+   "HWR8", "Power ON Indication", "", "Panel LED", "D3", "Board Power ON Indication"
+   "HWR9", "Mini PCIe", "", "USB1", "P8", "Contains eSIM(DNM), SIM, USB-1, SOM Reset, GPIO Reset GPIO01_04"
+   "HWR10", "Micro SIM Socket", "", "DATA & CLK signals", "J4", ""
+   "HWR11", "eSIM", "", "DATA & CLK signals", "U16", "Chip not mounted"
+   "HWR12", "WiFi Module", "LILY-W131", "USB2", "U18", "GPIO5_0 Power Seq, GPIO1_18 Radio Ctrl, Wakeup, Power Enable GPIO"
+   "HWR13", "Ethernet", "", "Ethernet PHY", "J3", ""
+   "HWR14", "RS232", "", "UART2", "P4", ""
+   "HWR15", "RS485", "", "UART6", "P4", ""
+   "HWR16", "Optical UART", "", "UART7", "D31, D30", ""
+   "HWR17", "RF Connector 1", "", "UART4", "P9", ""
+   "HWR18", "RF Connector 1 GPIOs", "", "GPIO", "P9", ""
+   "HWR19", "RF Connector 2", "", "UART3", "P12", ""
+   "HWR20", "RF Connector 2 GPIOs", "", "GPIO", "P12", ""
+   "HWR21", "TPM", "SLB_9672XU2.0_UQFN_32P", "SPI2, GPIO", "U24", "Disable I2C and test SPI functionality"
+   "HWR22", "TPM", "SLB_9672XU2.0_UQFN_32P", "I2C2, GPIO", "U24", "Disable SPI and test I2C functionality"
+   "HWR23", "Accelerometer, Gyroscope (3-Axis)", "LSM6DSLTR", "I2C1, GPIO", "U23", ""
+   "HWR24", "Tamper Pins", "", "GPIO", "", ""
+   "HWR25", "SPI-LCD Header", "", "SPI1", "P10", ""
+   "HWR26", "Digital Input Header", "", "GPIO", "P5", ""
+   "HWR27", "Micro SD Card", "", "SDIO", "J2", ""
+   "HWR28", "TTL Debug Port", "Debug_Port", "UART1", "J1", ""
+   "HWR29", "Bluetooth", "BGM220PC22HNA2", "UART5, Watchdog", "U14", ""
+   "HWR30", "Bluetooth Power Switch", "TPS22965NDSGR", "GPIO5_3_BLE_PWR_EN", "U15", ""
+   "HWR31", "Li-ion Battery Charger", "", "GPIO1_3_ADC1_IN3", "P7", ""
+   "HWR32", "Boot Mode Configuration Selection", "61300211121", "eMMC, SD Card", "J9", ""
+
 
 
 RB-DCU i.MX 6ULL Board Block Diagram
