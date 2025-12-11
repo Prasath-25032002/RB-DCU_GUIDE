@@ -50,7 +50,6 @@ RB-DCU i.MX 6ULL Board Hardware Details
 .. csv-table::
    :header: "Req", "Hardware", "Part No", "Interface", "Connector", "Remarks"
    :widths: 6, 20, 18, 18, 10, 40
-   :align: center
 
    "HWR1", "Boot Mode", "", "Mode-0 & Mode-1", "P1", "(2+3) Internal Boot, (1+2) Serial Boot"
    "HWR2", "Power Session", "", "Circuit --DC 5V", "P2", ""
