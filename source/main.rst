@@ -43,6 +43,10 @@ RB-DCU i.MX 6ULL Board Bottom View
 RB-DCU i.MX 6ULL Board Hardware Details
 =======================================
 
+.. raw:: latex
+
+   \vspace{7em}
+
 .. csv-table::
    :header: "Req", "Hardware", "Part No", "Interface", "Connector", "Remarks"
    :widths: 6, 20, 18, 18, 10, 40
@@ -81,7 +85,9 @@ RB-DCU i.MX 6ULL Board Hardware Details
    "HWR31", "Li-ion Battery Charger", "", "GPIO1_3_ADC1_IN3", "P7", ""
    "HWR32", "Boot Mode Configuration Selection", "61300211121", "eMMC, SD Card", "J9", ""
 
+.. raw:: latex
 
+   \vspace{7em}
 
 RB-DCU i.MX 6ULL Board Block Diagram
 =======================================
